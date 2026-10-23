@@ -14,6 +14,10 @@
 </head>
 
 <body class="is-preload">
+	<!-- Botón Flotante con Icono SVG -->
+	<button id="dark-mode-toggle" class="dark-mode-btn" title="Cambiar tema">
+		<img id="dark-mode-icon" src="images/dark_mode.svg" alt="Modo Oscuro" />
+	</button>
 	<div id="page-wrapper">
 
 		<!-- Header -->
@@ -22,7 +26,7 @@
 			<!-- Logo -->
 			<h1><a href="index.html" id="logo">Actividades Deportivas y ejercicios al aire libre en el Parque
 					Samanes</a></h1>
-					
+
 
 
 			<!-- Nav -->
@@ -69,34 +73,33 @@
 			</div>
 		</section>
 		<!-- Highlights / Resumen de bienvenida -->
-        <section class="wrapper style1">
-            <div class="container">
-                <div class="row gtr-200">
-                    <section class="col-4 col-12-narrower">
-                        <div class="box highlight">
-                            <i class="icon solid major fa-running"></i>
-                            <h3>Deporte y Salud</h3>
-                            <p>Espacios para entrenar y mantener una rutina física al aire libre.</p>
-                        </div>
-                    </section>
-                    <section class="col-4 col-12-narrower">
-                        <div class="box highlight">
-                            <i class="icon solid major fa-tree"></i>
-                            <h3>Ambiente Natural</h3>
-                            <p>Áreas verdes para salir de la rutina, respirar aire fresco y relajarse.</p>
-                        </div>
-                    </section>
-                    <section class="col-4 col-12-narrower">
-                        <div class="box highlight">
-                            <i class="icon solid major fa-users"></i>
-                            <h3>Para Todos</h3>
-                            <p>Un lugar seguro e ideal para niños, jóvenes, adultos y familias.</p>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </section>
-
+		<section class="wrapper style1">
+			<div class="container">
+				<div class="row gtr-200">
+					<section class="col-4 col-12-narrower">
+						<div class="box highlight">
+							<i class="icon solid major fa-running"></i>
+							<h3>Deporte y Salud</h3>
+							<p>Espacios para entrenar y mantener una rutina física al aire libre.</p>
+						</div>
+					</section>
+					<section class="col-4 col-12-narrower">
+						<div class="box highlight">
+							<i class="icon solid major fa-tree"></i>
+							<h3>Ambiente Natural</h3>
+							<p>Áreas verdes para salir de la rutina, respirar aire fresco y relajarse.</p>
+						</div>
+					</section>
+					<section class="col-4 col-12-narrower">
+						<div class="box highlight">
+							<i class="icon solid major fa-users"></i>
+							<h3>Para Todos</h3>
+							<p>Un lugar seguro e ideal para niños, jóvenes, adultos y familias.</p>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
 
 
 		<!--Sobre la Actividad -->
@@ -107,6 +110,8 @@
 					<p>Conozca las actividades deportivas o al aire libre que se pueden realizar en el Parque Samanes
 					</p>
 				</header>
+
+				<!-- Areas deportivas y ciclovia -->
 				<div class="row">
 					<section class="col-6 col-12-narrower">
 						<div class="box post">
@@ -131,10 +136,12 @@
 						</div>
 					</section>
 				</div>
-				<div class="row">
+
+				<!-- Ejercicio al aire libre -->
+				<div class="row aln-center" style="margin-top: 2.5em;">
 					<section class="col-6 col-12-narrower">
 						<div class="box post">
-							<a href="#" class="image left"><img src="images/pic03.jpg"
+							<a href="#" class="image left"><img src="images/ejercicio.jpg"
 									alt="Ejercicios al Aire Libre" /></a>
 							<div class="inner">
 								<h3>Ejercicios al Aire Libre</h3>
@@ -143,21 +150,10 @@
 							</div>
 						</div>
 					</section>
-					<section class="col-6 col-12-narrower">
-						<div class="box post">
-							<a href="#" class="image left"><img src="images/pic04.jpg"
-									alt="Mesas de Picnic y Descanso" /></a>
-							<div class="inner">
-								<h3>Mesas de Picnic y Descanso</h3>
-								<p>Zonas con mesas y sombra de árboles para descansar, comer algo o pasar el rato
-									después de hacer ejercicio.</p>
-							</div>
-						</div>
-					</section>
 				</div>
+
 			</div>
 		</section>
-
 
 
 		<!-- Footer -->
@@ -216,7 +212,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<script src="assets/js/darkmode.js"></script>
 </body>
 
 </html>
